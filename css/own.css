@@ -1,0 +1,15 @@
+.website-header{
+  background-image: url(../image/steal_header.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+.index_header{
+  background-image: url(../image/steal_header.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: 100% 100%;
+}
