@@ -25,8 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Phd Candidate Exam: https://zheweimedia.gitbooks.io/candidate_exam/content/
     - GitHub Pages: "https://github.com/ZheweiMedia"
   Author's home: "http://ZheweiMedia.github.io"
 
