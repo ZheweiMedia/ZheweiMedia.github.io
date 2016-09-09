@@ -7,6 +7,18 @@
     <atom:link href="http://ZheweiMedia.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>ILSVRC 2010 to 2015</title>
+        <description>
+          Each winner is winning in its own way. - 
+          No content now.
+
+        </description>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://ZheweiMedia.github.io/2016-09-08-ISLVRC-2010-to-2015/</link>
+        <guid isPermaLink="true">http://ZheweiMedia.github.io/2016-09-08-ISLVRC-2010-to-2015/</guid>
+      </item>
+    
+      <item>
         <title>From Perceptron, Logistic Regression to MLP</title>
         <description>
           But still before Deep Learning - 
