@@ -11,7 +11,6 @@ Machine learning/ Deep learning/ Medical image analysis/ Data science/ Database/
 
 ### Courses:
 
-
 * CS6900: Computer Graphics Visualize (The **V**isualization **T**ool**K**it)
 * CS6900: Advanced Topics in Image Analysis & Learning (Deep Learning)
 * CS6900: Geometric Computing
@@ -24,6 +23,7 @@ Machine learning/ Deep learning/ Medical image analysis/ Data science/ Database/
 * [Operating Systems](https://www.coursera.org/learn/os-pku/home/welcome)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
 * [Neural networks class - Université de Sherbrooke](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
+
 
 
 ### Research history
@@ -39,7 +39,7 @@ Machine learning/ Deep learning/ Medical image analysis/ Data science/ Database/
   * Extend SVM to separate three classes samples by two parallel lines.
   * Kernelize this method to achieve nonlinear separation.
 
---------------------------------
+*************************************
 
 ##### Successful
 
