@@ -6,12 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Test markdown</title>
+  <title>Zhewei@MedIA Lab</title>
 
   <meta name="author" content="Zhewei Wang" />
   
-  
-  <meta name="description" content="Each post also has a subtitle">
   
 
   <link rel="alternate" type="application/rss+xml" title="Zhewei@MedIA Lab - A virtual proof that name is awesome!" href="/feed.xml" />
@@ -47,10 +45,10 @@
   
 
   <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="Test markdown" />
+  <meta property="og:title" content="Zhewei@MedIA Lab" />
   <meta property="og:type" content="website" />
   
-  <meta property="og:url" content="http://localhost:4000/2015-02-20-test-markdown/" />
+  <meta property="og:url" content="http://localhost:4000/archive/" />
   
   
   <meta property="og:image" content="http://localhost:4000/img/avatar-icon.png" />
@@ -60,8 +58,8 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@yourname" />
   <meta name="twitter:creator" content="@yourname" />
-  <meta name="twitter:title" content="Test markdown" />
-  <meta name="twitter:description" content="You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc. **Here is some bold text** ## Here is..." />
+  <meta name="twitter:title" content="Zhewei@MedIA Lab" />
+  <meta name="twitter:description" content="{%for post in site.posts %} {% unless post.next %} {{ post.date | date: '%Y' }} {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %} {{ post.date | date:..." />
   
   <meta name="twitter:image" content="http://localhost:4000/img/avatar-icon.png" />
   
@@ -164,132 +162,45 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+    <div class="intro-header"></div>
 
+<div role="main" class="container">
+  <div class="well">
 
+    
+        <h1>2017</h1>
+        <ul>
+    
+    <li><a href="/2017-02-04-Segementation_via_Depp_Learning/">Feb 4 - Segmentation via Deep Learning</a></li>
 
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-heading">
-          <h1>Test markdown</h1>
-		  
-		    
-			<h2 class="post-subheading">Each post also has a subtitle</h2>
-			
-		  
-		  
-		  
-		  <span class="post-meta">Posted on </span>
-		  
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
-
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-      <article role="main" class="blog-post">
-        <p>You can write regular <a href="http://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
-
-<p><strong>Here is some bold text</strong></p>
-
-<h2 id="here-is-a-secondary-heading">Here is a secondary heading</h2>
-
-<p>Here’s a useless table:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Number</th>
-      <th style="text-align: left">Next number</th>
-      <th style="text-align: left">Previous number</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Five</td>
-      <td style="text-align: left">Six</td>
-      <td style="text-align: left">Four</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ten</td>
-      <td style="text-align: left">Eleven</td>
-      <td style="text-align: left">Nine</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Seven</td>
-      <td style="text-align: left">Eight</td>
-      <td style="text-align: left">Six</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Two</td>
-      <td style="text-align: left">Three</td>
-      <td style="text-align: left">One</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>How about a yummy crepe?</p>
-
-<p><img src="http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" /></p>
-
-<p>Here’s a code chunk:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-</code></pre>
-</div>
-
-<p>And here is the same code with syntax highlighting:</p>
-
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
-<span class="p">}</span>
-<span class="nx">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-</code></pre>
-</div>
-
-<p>And here is the same code yet again but with line numbers:</p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
-<span class="p">}</span>
-<span class="nx">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
-
-
-      </article>
-
-      
-
-      
-
-      <ul class="pager blog-pager">
+    
         
         
-      </ul>
+        
+            </ul>
+            <h1>2016</h1>
+            <ul>
+        
+    
+    <li><a href="/2016-09-27-LSTM-and-GRU/">Sep 27 - LSTM and GRU</a></li>
 
-      
-    </div>
-  </div>
+    
+        
+        
+        
+    
+    <li><a href="/2016-09-08-ISLVRC-2010-to-2015/">Sep 8 - ILSVRC 2010 to 2015</a></li>
+
+    
+        
+        
+        
+    
+    <li><a href="/2016-09-06-Perceptron-LG-MLP/">Sep 6 - From Perceptron, Logistic Regression to MLP</a></li>
+
+</ul>
+</div>
+
 </div>
 
     <footer>
