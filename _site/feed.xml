@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhewei@MedIA Lab</title>
-    <description>A virtual proof that name is awesome!</description>
+    <description>Practicing Machine Learning.</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Loss Functions of Deep Learning Networks</title>
+        <description>
+          What properties are a Loss Function needs? - 
+          No content now.
+
+        </description>
+        <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2018-06-25-Loss-Functions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-06-25-Loss-Functions/</guid>
+      </item>
     
       <item>
         <title>Segmentation via Deep Learning</title>
@@ -14,7 +26,7 @@
 
 
         </description>
-        <pubDate>Sat, 04 Feb 2017 00:00:00 -0800</pubDate>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/2017-02-04-Segementation_via_Depp_Learning/</link>
         <guid isPermaLink="true">http://localhost:4000/2017-02-04-Segementation_via_Depp_Learning/</guid>
       </item>
@@ -26,7 +38,7 @@
           No content now.
 
         </description>
-        <pubDate>Tue, 27 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/2016-09-27-LSTM-and-GRU/</link>
         <guid isPermaLink="true">http://localhost:4000/2016-09-27-LSTM-and-GRU/</guid>
       </item>
@@ -38,7 +50,7 @@
           No content now.
 
         </description>
-        <pubDate>Thu, 08 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/2016-09-08-ISLVRC-2010-to-2015/</link>
         <guid isPermaLink="true">http://localhost:4000/2016-09-08-ISLVRC-2010-to-2015/</guid>
       </item>
@@ -50,7 +62,7 @@
           No content now.
 
         </description>
-        <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/2016-09-06-Perceptron-LG-MLP/</link>
         <guid isPermaLink="true">http://localhost:4000/2016-09-06-Perceptron-LG-MLP/</guid>
       </item>
