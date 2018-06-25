@@ -18,7 +18,9 @@ baseurl: ""
 title: Zhewei@MedIA Lab
 
 # Short description of your site
-Practicing Machine Learning.
+
+
+Practicing
 
 
 # --- Navigation bar options --- #
@@ -43,8 +45,8 @@ author:
   name: Zhewei Wang
   email: "zwwang.china@gmail.com"
   facebook: yourname  # eg. daattali
-  github: ZheweiMedia    # eg. daattali
-  twitter: rabbit3306   # eg. daattali
+  github: yourname    # eg. daattali
+  twitter: yourname   # eg. daattali
   linkedin: yourname  # eg. daattali
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
@@ -54,7 +56,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: false
+  facebook: true
   email: true
   twitter: true
   github: true
@@ -86,7 +88,7 @@ url-pretty: "Zhewei@MedIA Lab"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/EDT"
+timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
