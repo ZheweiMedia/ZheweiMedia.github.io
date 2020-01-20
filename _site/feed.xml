@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>CV Top30 by Microsoft Research Asia</title>
+        <description>
+          Reviews - 
+          Keywords: High-Resolution representation, Spatial Attention Mechanism –&amp;gt; Relation networks, Tracking by duel networks (with semantic), Depth prediction, Knowledge distillation. Deep High-Resolution Representation Learning for Human Pose Estimation 1.1 Two benefits of the architecture Connects high-to-low resolution sub-networks in parallel rather than in series as done in most existing solutions. Repeated...
+        </description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2020-01-19-CV-Top-20/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-01-19-CV-Top-20/</guid>
+      </item>
+    
+      <item>
         <title>Loss Functions of Deep Learning Networks</title>
         <description>
           What properties are a Loss Function needs? - 
